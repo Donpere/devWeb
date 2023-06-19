@@ -38,8 +38,8 @@ For now, I'm looking for an internship, ideally in the Île-de-France region.
 <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> 
 	<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Docker_%28container_engine%29_logo_%28cropped%29.png" alt="DOCKER" width="40" height="40"/> </a>
 
-<a href="https://www.nginx.com/" target="_blank" rel="noreferrer"> 
-	<img src="https://raw.githubusercontent.com/rdimascio/icons/932c4cf6c9e2031abeca1c164baa0f76785c16fe/icons/color/nginx.svg" alt="NGINX" width="40" height="40"/> </a>
+<a href="https://nodejs.org/en" target="_blank" rel="noreferrer"> 
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/langfr-1280px-Node.js_logo.svg.png" alt="NODE JS" width="80" height="40"/> </a>
 
 
 	
