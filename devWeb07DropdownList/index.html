@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CALCULATRICE</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<h1>CALCULATRICE</h1>
+
+
+<!-- 
+	ATTRIBUT NAME : Lorsque vous soumettez le formulaire, les valeurs des champs de saisie seront envoyées au serveur avec leurs noms correspondants. Par exemple, si vous utilisez un langage de programmation côté serveur comme PHP, vous pouvez récupérer les valeurs dans le script PHP en utilisant les noms des champs :
+
+	php
+	Copy code
+	$operand1 = $_POST['operand1'];
+	$operand2 = $_POST['operand2']; -->
+
+<!-- Champ du premier operande -->
+<div class="op1">
+	<label for="operand1">Premier Operande</label>
+	<input type="number" name="operand1" id="operand1">
+</div>
+
+<!-- Champ de la liste deroulante -->
+<div class="lisDer">
+	<label for="operator">Opérateur :</label>
+	<select id="operator">
+	  <option value="+">+</option>
+	  <option value="-">-</option>
+	  <option value="*">*</option>
+	  <option value="/">/</option>
+	</select><br>
+</div>
+
+<!-- Champ du second operande -->
+<div class="op2">
+	<label for="operand2">Second Operande</label>
+	<input type="number" name="operand2" id="operand2">
+</div>
+
+<!-- Button pour lancer calcul -->
+<div class="btnCalc">
+	<button type="submit" onclick="calculate()">Calculer</button>
+</div>
+
+<!-- Champ du resultat -->	
+<div class="res">
+	<h2>Résultat :</h2>
+	<div id="result"></div>
+</div>
+
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+*{
+	
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	background-color: pink;
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: blue;
+}
+
+p{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: blueviolet;
+	width: 100px;
+}
+
+div{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+}
+
+#tableContainer, #tableContainer2{
+	background-color: coral;
+	margin: 20px;
+	padding: 20px;
+	width: 100vw;
+	height: auto;
+
+	text-align: left;
+}

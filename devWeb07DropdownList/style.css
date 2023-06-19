@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	text-align: center;
+}
+
+.op1, .op2{
+	background-color: pink;
+	padding: 10px;
+
+}
+
+/*la règle CSS "div > *" sélectionne tous les éléments enfants directs 
+(quel que soit leur type) des div. Les styles spécifiés, tels que "display: 
+flex;", "justify-content: center;", "align-items: center;", et "margin-bottom: 10px;", 
+seront appliqués à ces éléments enfants pour les centrer horizontalement 
+et verticalement à l'intérieur de leurs div parents, avec une marge inférieure de 10 pixels.*/
+
+div > * {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* les champs de saisie input et les listes déroulantes select qui sont 
+des enfants directs des div auront les styles de centrage appliqués. 
+La règle "display: block;" permet aux éléments d'occuper toute la largeur disponible dans le div, 
+tandis que "margin: 0 auto;" centre les éléments horizontalement 
+en leur appliquant une marge automatique sur les côtés gauche et droit.
+
+Vous pouvez ajouter cette règle CSS à votre code pour centrer les champs de formulaire 
+à l'intérieur des div. */
+
+div > input,
+div > select,
+div > button {
+  display: block;
+  margin: 0 auto;
+}
+
+.lisDer, .btnCalc{
+	padding: 20px;
+}
+
+select {
+
+}
+
+.operator {
+
+}
