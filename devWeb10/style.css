@@ -1,0 +1,16 @@
+p{
+	color: blue;
+}
+
+.papa{
+	display: block;
+}
+
+/* #pop{
+	color: green;
+} */
+
+div > *{
+	color: red;
+}
+
